@@ -1,0 +1,15 @@
+apiVersion: platform.psi/2026-03-01
+kind: event
+id: open-overlayless-drawer-click
+name: Open Overlayless Drawer Click
+spec:
+  sourceRef: component:open-overlayless-drawer
+  sourceSurface: component
+  trigger: onClick
+  actions:
+    - kind: controlComponent
+      targetRef: frameSurface:overlayless-drawer
+      componentActionHandle: show
+      componentActionParams: {}
+  policyRefs:
+    - policy:workspace-reader

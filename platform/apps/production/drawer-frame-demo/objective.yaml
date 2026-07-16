@@ -1,0 +1,7 @@
+apiVersion: platform.psi/2026-03-01
+kind: objective
+id: drawer-frame-demo
+name: DrawerFrame Demo Objective
+spec:
+  title: DrawerFrame Demo
+  summary: Production preview fixture for DrawerFrame frame surfaces.

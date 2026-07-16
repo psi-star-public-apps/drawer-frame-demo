@@ -1,0 +1,24 @@
+apiVersion: platform.psi/2026-03-01
+kind: component
+id: certification-summary
+name: DrawerFrame Certification Summary
+spec:
+  type: Text
+  pageRef: page:home
+  layout:
+    desktop:
+      x: 0
+      y: 0
+      width: 24
+      height: 4
+    mobile:
+      x: 0
+      y: 0
+      width: 4
+      height: 4
+  properties:
+    text: DrawerFrame certification fixture proves frame-surface behavior outside the normal widget manifest.
+  display:
+    showOnDesktop: true
+    showOnMobile: true
+  validation: {}

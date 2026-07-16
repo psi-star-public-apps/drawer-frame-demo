@@ -1,0 +1,21 @@
+apiVersion: platform.psi/2026-03-01
+kind: app
+id: drawer-frame-demo
+name: DrawerFrame Demo
+spec:
+  appHandle: drawer-frame-demo
+  slug: drawer-frame-demo
+  type: front-end
+  homePageRef: page:home
+  defaultThemeRef: theme:base-theme
+  rootFrameSurfaceRefs:
+    - frameSurface:global-navigation-drawer
+  modeDefaults:
+    appMode: internal
+    navigationPosition: side
+  runtimeBootstrap:
+    maintenanceMode:
+      isEnabled: false
+      message: ""
+    publicAccess:
+      isEnabled: false

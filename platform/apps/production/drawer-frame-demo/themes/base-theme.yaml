@@ -1,0 +1,9 @@
+apiVersion: platform.psi/2026-03-01
+kind: theme
+id: base-theme
+name: DrawerFrame Certification Theme
+spec:
+  tokens:
+    surface: "#ffffff"
+    surfaceDark: "#111827"
+    accent: "#2563eb"

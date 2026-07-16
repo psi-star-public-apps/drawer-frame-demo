@@ -1,0 +1,26 @@
+apiVersion: platform.psi/2026-03-01
+kind: frameSurface
+id: hidden-editor-drawer
+name: Hidden Editor Drawer
+spec:
+  type: DrawerFrame
+  global: false
+  pageRef: page:home
+  slotName: default
+  childOrder:
+    - component:hidden-editor-drawer-body
+  hidden: true
+  showInEditor: true
+  showOverlay: true
+  overlayInteraction: false
+  hideOnEscape: false
+  loading: false
+  width: medium
+  customWidth: null
+  padding: normal
+  showHeader: true
+  showFooter: false
+  showHeaderBorder: true
+  showFooterBorder: true
+  showOnDesktop: true
+  showOnMobile: false

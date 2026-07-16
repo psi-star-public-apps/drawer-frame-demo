@@ -1,0 +1,26 @@
+apiVersion: platform.psi/2026-03-01
+kind: component
+id: filter-drawer-body
+name: Filter Drawer Body
+spec:
+  type: Text
+  pageRef: page:home
+  parentRef: frameSurface:filter-drawer
+  slotName: default
+  layout:
+    desktop:
+      x: 0
+      y: 0
+      width: 14
+      height: 4
+    mobile:
+      x: 0
+      y: 0
+      width: 14
+      height: 4
+  properties:
+    text: Filter drawer uses a validated percent custom width.
+  display:
+    showOnDesktop: true
+    showOnMobile: false
+  validation: {}

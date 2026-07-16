@@ -1,0 +1,26 @@
+apiVersion: platform.psi/2026-03-01
+kind: component
+id: detail-drawer-header
+name: Detail Drawer Header
+spec:
+  type: Text
+  pageRef: page:home
+  parentRef: frameSurface:detail-drawer
+  slotName: header
+  layout:
+    desktop:
+      x: 0
+      y: 0
+      width: 15
+      height: 4
+    mobile:
+      x: 0
+      y: 0
+      width: 15
+      height: 4
+  properties:
+    text: Account Detail
+  display:
+    showOnDesktop: true
+    showOnMobile: false
+  validation: {}

@@ -1,0 +1,26 @@
+apiVersion: platform.psi/2026-03-01
+kind: component
+id: stack-primary-drawer-body
+name: Stack Primary Drawer Body
+spec:
+  type: Text
+  pageRef: page:home
+  parentRef: frameSurface:stack-primary-drawer
+  slotName: default
+  layout:
+    desktop:
+      x: 0
+      y: 0
+      width: 9
+      height: 4
+    mobile:
+      x: 0
+      y: 0
+      width: 9
+      height: 4
+  properties:
+    text: First open stacked drawer.
+  display:
+    showOnDesktop: true
+    showOnMobile: false
+  validation: {}

@@ -1,0 +1,25 @@
+apiVersion: platform.psi/2026-03-01
+kind: component
+id: open-filter-drawer
+name: Open Filter Drawer
+spec:
+  type: Button
+  pageRef: page:home
+  layout:
+    desktop:
+      x: 7
+      y: 4
+      width: 6
+      height: 4
+    mobile:
+      x: 0
+      y: 10
+      width: 4
+      height: 4
+  properties:
+    text: Open Filter Drawer
+    label: Open Filter Drawer
+  display:
+    showOnDesktop: true
+    showOnMobile: true
+  validation: {}

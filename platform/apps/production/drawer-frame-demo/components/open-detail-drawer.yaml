@@ -1,0 +1,25 @@
+apiVersion: platform.psi/2026-03-01
+kind: component
+id: open-detail-drawer
+name: Open Detail Drawer
+spec:
+  type: Button
+  pageRef: page:home
+  layout:
+    desktop:
+      x: 0
+      y: 4
+      width: 6
+      height: 4
+    mobile:
+      x: 0
+      y: 5
+      width: 4
+      height: 4
+  properties:
+    text: Open Detail Drawer
+    label: Open Detail Drawer
+  display:
+    showOnDesktop: true
+    showOnMobile: true
+  validation: {}

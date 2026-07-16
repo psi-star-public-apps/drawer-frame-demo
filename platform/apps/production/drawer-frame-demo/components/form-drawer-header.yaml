@@ -1,0 +1,26 @@
+apiVersion: platform.psi/2026-03-01
+kind: component
+id: form-drawer-header
+name: Form Drawer Header
+spec:
+  type: Text
+  pageRef: page:home
+  parentRef: frameSurface:form-drawer
+  slotName: header
+  layout:
+    desktop:
+      x: 0
+      y: 0
+      width: 19
+      height: 4
+    mobile:
+      x: 0
+      y: 0
+      width: 19
+      height: 4
+  properties:
+    text: Edit Record
+  display:
+    showOnDesktop: true
+    showOnMobile: false
+  validation: {}

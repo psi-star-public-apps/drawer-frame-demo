@@ -1,0 +1,27 @@
+apiVersion: platform.psi/2026-03-01
+kind: frameSurface
+id: form-drawer
+name: Form Drawer
+spec:
+  type: DrawerFrame
+  global: false
+  pageRef: page:home
+  slotName: default
+  childOrder:
+    - component:form-drawer-header
+    - component:form-drawer-body
+  hidden: true
+  showInEditor: true
+  showOverlay: true
+  overlayInteraction: true
+  hideOnEscape: true
+  loading: false
+  width: custom
+  customWidth: 520px
+  padding: normal
+  showHeader: true
+  showFooter: false
+  showHeaderBorder: true
+  showFooterBorder: true
+  showOnDesktop: true
+  showOnMobile: false

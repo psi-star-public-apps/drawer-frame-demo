@@ -1,0 +1,26 @@
+apiVersion: platform.psi/2026-03-01
+kind: component
+id: form-drawer-body
+name: Form Drawer Body
+spec:
+  type: Text
+  pageRef: page:home
+  parentRef: frameSurface:form-drawer
+  slotName: default
+  layout:
+    desktop:
+      x: 0
+      y: 0
+      width: 19
+      height: 4
+    mobile:
+      x: 0
+      y: 0
+      width: 19
+      height: 4
+  properties:
+    text: Form drawer uses a validated px custom width.
+  display:
+    showOnDesktop: true
+    showOnMobile: false
+  validation: {}

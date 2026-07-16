@@ -1,0 +1,25 @@
+apiVersion: platform.psi/2026-03-01
+kind: component
+id: open-form-drawer
+name: Open Form Drawer
+spec:
+  type: Button
+  pageRef: page:home
+  layout:
+    desktop:
+      x: 14
+      y: 4
+      width: 6
+      height: 4
+    mobile:
+      x: 0
+      y: 15
+      width: 4
+      height: 4
+  properties:
+    text: Open Form Drawer
+    label: Open Form Drawer
+  display:
+    showOnDesktop: true
+    showOnMobile: true
+  validation: {}

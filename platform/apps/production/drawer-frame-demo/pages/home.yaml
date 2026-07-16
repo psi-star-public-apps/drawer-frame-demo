@@ -1,0 +1,29 @@
+apiVersion: platform.psi/2026-03-01
+kind: page
+id: home
+name: DrawerFrame Certification
+spec:
+  handle: home
+  title: DrawerFrame Certification
+  route: /home
+  navigation:
+    label: DrawerFrame Certification
+    order: 10
+  rootComponentRefs:
+    - component:certification-summary
+    - component:open-detail-drawer
+    - component:open-filter-drawer
+    - component:open-form-drawer
+    - component:open-overlayless-drawer
+    - component:open-hidden-editor-drawer
+  rootFrameSurfaceRefs:
+    - frameSurface:detail-drawer
+    - frameSurface:filter-drawer
+    - frameSurface:form-drawer
+    - frameSurface:overlayless-drawer
+    - frameSurface:hidden-editor-drawer
+    - frameSurface:stack-primary-drawer
+    - frameSurface:stack-secondary-drawer
+    - frameSurface:mobile-diagnostic-drawer
+  policyRefs:
+    - policy:workspace-reader

@@ -1,0 +1,26 @@
+apiVersion: platform.psi/2026-03-01
+kind: component
+id: stack-secondary-drawer-body
+name: Stack Secondary Drawer Body
+spec:
+  type: Text
+  pageRef: page:home
+  parentRef: frameSurface:stack-secondary-drawer
+  slotName: default
+  layout:
+    desktop:
+      x: 0
+      y: 0
+      width: 15
+      height: 4
+    mobile:
+      x: 0
+      y: 0
+      width: 15
+      height: 4
+  properties:
+    text: Second open stacked drawer owns the single dark overlay.
+  display:
+    showOnDesktop: true
+    showOnMobile: false
+  validation: {}

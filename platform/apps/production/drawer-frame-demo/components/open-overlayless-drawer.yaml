@@ -1,0 +1,25 @@
+apiVersion: platform.psi/2026-03-01
+kind: component
+id: open-overlayless-drawer
+name: Open Overlayless Drawer
+spec:
+  type: Button
+  pageRef: page:home
+  layout:
+    desktop:
+      x: 0
+      y: 9
+      width: 8
+      height: 4
+    mobile:
+      x: 0
+      y: 20
+      width: 4
+      height: 4
+  properties:
+    text: Open Overlayless Drawer
+    label: Open Overlayless Drawer
+  display:
+    showOnDesktop: true
+    showOnMobile: true
+  validation: {}

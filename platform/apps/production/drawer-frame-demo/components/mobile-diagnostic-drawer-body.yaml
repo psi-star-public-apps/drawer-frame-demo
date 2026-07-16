@@ -1,0 +1,26 @@
+apiVersion: platform.psi/2026-03-01
+kind: component
+id: mobile-diagnostic-drawer-body
+name: Mobile Diagnostic Drawer Body
+spec:
+  type: Text
+  pageRef: page:home
+  parentRef: frameSurface:mobile-diagnostic-drawer
+  slotName: default
+  layout:
+    desktop:
+      x: 0
+      y: 0
+      width: 15
+      height: 4
+    mobile:
+      x: 0
+      y: 0
+      width: 15
+      height: 4
+  properties:
+    text: Mobile rendering is deferred and must produce a viewport-contextual diagnostic.
+  display:
+    showOnDesktop: true
+    showOnMobile: true
+  validation: {}

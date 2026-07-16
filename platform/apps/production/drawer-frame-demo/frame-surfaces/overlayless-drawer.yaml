@@ -1,0 +1,26 @@
+apiVersion: platform.psi/2026-03-01
+kind: frameSurface
+id: overlayless-drawer
+name: Overlayless Drawer
+spec:
+  type: DrawerFrame
+  global: false
+  pageRef: page:home
+  slotName: default
+  childOrder:
+    - component:overlayless-drawer-body
+  hidden: true
+  showInEditor: true
+  showOverlay: false
+  overlayInteraction: true
+  hideOnEscape: true
+  loading: false
+  width: small
+  customWidth: null
+  padding: normal
+  showHeader: true
+  showFooter: false
+  showHeaderBorder: true
+  showFooterBorder: true
+  showOnDesktop: true
+  showOnMobile: false

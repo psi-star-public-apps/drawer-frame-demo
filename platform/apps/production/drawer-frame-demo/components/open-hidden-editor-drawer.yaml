@@ -1,0 +1,25 @@
+apiVersion: platform.psi/2026-03-01
+kind: component
+id: open-hidden-editor-drawer
+name: Open Hidden Editor Drawer
+spec:
+  type: Button
+  pageRef: page:home
+  layout:
+    desktop:
+      x: 9
+      y: 9
+      width: 8
+      height: 4
+    mobile:
+      x: 0
+      y: 25
+      width: 4
+      height: 4
+  properties:
+    text: Open Hidden Editor Drawer
+    label: Open Hidden Editor Drawer
+  display:
+    showOnDesktop: true
+    showOnMobile: true
+  validation: {}

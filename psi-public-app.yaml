@@ -1,0 +1,10 @@
+apiVersion: platform.psi/public-app/v1
+kind: PublicApp
+app:
+  path: platform/apps/production/drawer-frame-demo
+  handle: drawer-frame-demo
+  displayName: DrawerFrame Demo
+  summary: Preview DrawerFrame frame surfaces with header/default slots, overlay behavior, and proportional drawer grids.
+  icon:
+    name: apps
+requiredBindings: []

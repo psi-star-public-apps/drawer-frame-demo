@@ -1,0 +1,26 @@
+apiVersion: platform.psi/2026-03-01
+kind: frameSurface
+id: stack-secondary-drawer
+name: Stack Secondary Drawer
+spec:
+  type: DrawerFrame
+  global: false
+  pageRef: page:home
+  slotName: default
+  childOrder:
+    - component:stack-secondary-drawer-body
+  hidden: false
+  showInEditor: true
+  showOverlay: true
+  overlayInteraction: false
+  hideOnEscape: true
+  loading: false
+  width: medium
+  customWidth: null
+  padding: normal
+  showHeader: true
+  showFooter: false
+  showHeaderBorder: true
+  showFooterBorder: true
+  showOnDesktop: true
+  showOnMobile: false

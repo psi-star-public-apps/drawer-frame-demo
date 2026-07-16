@@ -1,0 +1,26 @@
+apiVersion: platform.psi/2026-03-01
+kind: component
+id: overlayless-drawer-body
+name: Overlayless Drawer Body
+spec:
+  type: Text
+  pageRef: page:home
+  parentRef: frameSurface:overlayless-drawer
+  slotName: default
+  layout:
+    desktop:
+      x: 0
+      y: 0
+      width: 9
+      height: 4
+    mobile:
+      x: 0
+      y: 0
+      width: 9
+      height: 4
+  properties:
+    text: This drawer has no dark overlay, but outside-click close remains enabled.
+  display:
+    showOnDesktop: true
+    showOnMobile: false
+  validation: {}
