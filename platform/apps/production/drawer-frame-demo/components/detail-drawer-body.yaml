@@ -8,19 +8,93 @@ spec:
   parentRef: frameSurface:detail-drawer
   slotName: default
   layout:
-    desktop:
-      x: 0
-      y: 0
-      width: 15
-      height: 4
-    mobile:
-      x: 0
-      y: 0
-      width: 15
-      height: 4
+    documentId: psi.gui.layout.cba71467f9879cea5cd623b6b2400f59cc6fb1948744bdadf5cb4e4041b90fb00
+    version: 2.0.0
+    algorithmVersion: 2.0.0
+    profiles:
+      wide:
+        profileId: wide
+        rect:
+          inlineStart: 0
+          inlineEnd: 15
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: migrated
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:575d2f3ffddc23ab7fe536ad08207df783b7bb291c1901f54b5dd41fb127f7d2
+          baseWideDigest: null
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 15
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+      medium:
+        profileId: medium
+        rect:
+          inlineStart: 0
+          inlineEnd: 9
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: derived
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:4548e6ff4904d808bc7fcb7e9162d0f054fecf8e529fdb2e8b4b0755e06dc08a
+          baseWideDigest: sha256:4548e6ff4904d808bc7fcb7e9162d0f054fecf8e529fdb2e8b4b0755e06dc08a
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 9
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+      compact:
+        profileId: compact
+        rect:
+          inlineStart: 0
+          inlineEnd: 5
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: derived
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:4548e6ff4904d808bc7fcb7e9162d0f054fecf8e529fdb2e8b4b0755e06dc08a
+          baseWideDigest: sha256:4548e6ff4904d808bc7fcb7e9162d0f054fecf8e529fdb2e8b4b0755e06dc08a
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 5
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+    contentDigest: sha256:2ca5bfae12020cace216071eca23b85435f5be4e1286beade96479ed1bc4a373
   properties:
     text: Detail drawer body content stays inside the DrawerFrame default slot.
   display:
     showOnDesktop: true
     showOnMobile: false
   validation: {}
+  appearance:
+    contractKind: ComponentAppearanceDocument
+    contractVersion: 1.0.0
+    componentInstanceId: component:detail-drawer-body
+    appearanceDefinitionRef:
+      id: psi.gui.widget.text
+      version: 4.0.0
+      contentDigest: sha256:64498e20cf379bb3a6079a7647681398768cdfd5ec0e820530998ca4ed62309d
+    selectedVariants:
+      - axisId: text_format
+        value: plain_text
+    stylePortValues: []
+    documentDigest: sha256:189a86f8388b18c0b86ae7d8f4d9104ca9440b75a03f1ab37d66e0ee93e88c1d

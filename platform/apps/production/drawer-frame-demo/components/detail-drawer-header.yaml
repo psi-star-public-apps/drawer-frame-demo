@@ -8,19 +8,93 @@ spec:
   parentRef: frameSurface:detail-drawer
   slotName: header
   layout:
-    desktop:
-      x: 0
-      y: 0
-      width: 15
-      height: 4
-    mobile:
-      x: 0
-      y: 0
-      width: 15
-      height: 4
+    documentId: psi.gui.layout.cd306a0c3efe73d25d9f46f839362fe065689bd7742e8417d7b169fe1964eeaba
+    version: 2.0.0
+    algorithmVersion: 2.0.0
+    profiles:
+      wide:
+        profileId: wide
+        rect:
+          inlineStart: 0
+          inlineEnd: 15
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: migrated
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:f00820e488a5eb03def5d3f559fca532951f31f6cafa6245d786c8eaec89ac1a
+          baseWideDigest: null
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 15
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+      medium:
+        profileId: medium
+        rect:
+          inlineStart: 0
+          inlineEnd: 9
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: derived
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:4548e6ff4904d808bc7fcb7e9162d0f054fecf8e529fdb2e8b4b0755e06dc08a
+          baseWideDigest: sha256:4548e6ff4904d808bc7fcb7e9162d0f054fecf8e529fdb2e8b4b0755e06dc08a
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 9
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+      compact:
+        profileId: compact
+        rect:
+          inlineStart: 0
+          inlineEnd: 5
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: derived
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:4548e6ff4904d808bc7fcb7e9162d0f054fecf8e529fdb2e8b4b0755e06dc08a
+          baseWideDigest: sha256:4548e6ff4904d808bc7fcb7e9162d0f054fecf8e529fdb2e8b4b0755e06dc08a
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 5
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+    contentDigest: sha256:6a8ae32dad83b227cf579167e2b502c4690444584b6f95c7947999f5c801fe26
   properties:
     text: Account Detail
   display:
     showOnDesktop: true
     showOnMobile: false
   validation: {}
+  appearance:
+    contractKind: ComponentAppearanceDocument
+    contractVersion: 1.0.0
+    componentInstanceId: component:detail-drawer-header
+    appearanceDefinitionRef:
+      id: psi.gui.widget.text
+      version: 4.0.0
+      contentDigest: sha256:64498e20cf379bb3a6079a7647681398768cdfd5ec0e820530998ca4ed62309d
+    selectedVariants:
+      - axisId: text_format
+        value: plain_text
+    stylePortValues: []
+    documentDigest: sha256:6ad51bf6bc0dd4d85c1b06a15058ef89c8aae086f4807036379adb21cf30379a

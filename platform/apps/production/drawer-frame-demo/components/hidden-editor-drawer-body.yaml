@@ -8,19 +8,93 @@ spec:
   parentRef: frameSurface:hidden-editor-drawer
   slotName: default
   layout:
-    desktop:
-      x: 0
-      y: 0
-      width: 15
-      height: 4
-    mobile:
-      x: 0
-      y: 0
-      width: 15
-      height: 4
+    documentId: psi.gui.layout.cef3577a101a115735302c692e8e1d90cd4b882038c2b2e9fefc8cf60580ac329
+    version: 2.0.0
+    algorithmVersion: 2.0.0
+    profiles:
+      wide:
+        profileId: wide
+        rect:
+          inlineStart: 0
+          inlineEnd: 15
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: migrated
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:d9e9936220e3c8fa19e12c6ab1334a3c98a1c1ecddf6f240732c25f1f83ec823
+          baseWideDigest: null
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 15
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+      medium:
+        profileId: medium
+        rect:
+          inlineStart: 0
+          inlineEnd: 9
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: derived
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:4548e6ff4904d808bc7fcb7e9162d0f054fecf8e529fdb2e8b4b0755e06dc08a
+          baseWideDigest: sha256:4548e6ff4904d808bc7fcb7e9162d0f054fecf8e529fdb2e8b4b0755e06dc08a
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 9
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+      compact:
+        profileId: compact
+        rect:
+          inlineStart: 0
+          inlineEnd: 5
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: derived
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:4548e6ff4904d808bc7fcb7e9162d0f054fecf8e529fdb2e8b4b0755e06dc08a
+          baseWideDigest: sha256:4548e6ff4904d808bc7fcb7e9162d0f054fecf8e529fdb2e8b4b0755e06dc08a
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 5
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+    contentDigest: sha256:17b4ac7ac30be39a08f1d48976d294e8a938d78465db12d9628a27a2d049d899
   properties:
     text: Hidden DrawerFrame remains editable in authoring because showInEditor is true.
   display:
     showOnDesktop: true
     showOnMobile: false
   validation: {}
+  appearance:
+    contractKind: ComponentAppearanceDocument
+    contractVersion: 1.0.0
+    componentInstanceId: component:hidden-editor-drawer-body
+    appearanceDefinitionRef:
+      id: psi.gui.widget.text
+      version: 4.0.0
+      contentDigest: sha256:64498e20cf379bb3a6079a7647681398768cdfd5ec0e820530998ca4ed62309d
+    selectedVariants:
+      - axisId: text_format
+        value: plain_text
+    stylePortValues: []
+    documentDigest: sha256:46bf3fa04890959cf3b474190ee4f348ef7908162b67cc2f314bbb2ba4bec914

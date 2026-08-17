@@ -3,7 +3,830 @@ kind: theme
 id: base-theme
 name: DrawerFrame Certification Theme
 spec:
+  contractKind: ThemeDocument
+  contractVersion: 1.0.0
+  themeId: psi.app.drawer_frame_demo.theme.base
+  themeVersion: 3.0.0
   tokens:
-    surface: "#ffffff"
-    surfaceDark: "#111827"
-    accent: "#2563eb"
+    - tokenId: color.accent.primary
+      category: color
+      value:
+        kind: color
+        value: "#ffb84dff"
+    - tokenId: color.accent.primary_hover
+      category: color
+      value:
+        kind: color
+        value: "#ffc66bff"
+    - tokenId: color.accent.primary_pressed
+      category: color
+      value:
+        kind: color
+        value: "#e89a2dff"
+    - tokenId: color.accent.primary_strong
+      category: color
+      value:
+        kind: color
+        value: "#9a5f12ff"
+    - tokenId: color.accent.on_primary
+      category: color
+      value:
+        kind: color
+        value: "#1b1206ff"
+    - tokenId: color.accent.secondary
+      category: color
+      value:
+        kind: color
+        value: "#2f6f73ff"
+    - tokenId: color.accent.tertiary
+      category: color
+      value:
+        kind: color
+        value: "#6a4d91ff"
+    - tokenId: color.surface.canvas
+      category: color
+      value:
+        kind: color
+        value: "#f3f0eaff"
+    - tokenId: color.surface.shell
+      category: color
+      value:
+        kind: color
+        value: "#ebe6deff"
+    - tokenId: color.surface.primary
+      category: color
+      value:
+        kind: color
+        value: "#faf8f4ff"
+    - tokenId: color.surface.secondary
+      category: color
+      value:
+        kind: color
+        value: "#f7f4efff"
+    - tokenId: color.surface.raised
+      category: color
+      value:
+        kind: color
+        value: "#efeae2ff"
+    - tokenId: color.surface.inset
+      category: color
+      value:
+        kind: color
+        value: "#f7f4efff"
+    - tokenId: color.text.primary
+      category: color
+      value:
+        kind: color
+        value: "#111214ff"
+    - tokenId: color.text.muted
+      category: color
+      value:
+        kind: color
+        value: "#57534dff"
+    - tokenId: color.text.inverse
+      category: color
+      value:
+        kind: color
+        value: "#ffffffff"
+    - tokenId: color.border.primary
+      category: color
+      value:
+        kind: color
+        value: "#c9c1b5ff"
+    - tokenId: color.border.secondary
+      category: color
+      value:
+        kind: color
+        value: "#ddd6cbff"
+    - tokenId: color.status.info
+      category: color
+      value:
+        kind: color
+        value: "#2f6f73ff"
+    - tokenId: color.status.success
+      category: color
+      value:
+        kind: color
+        value: "#27855cff"
+    - tokenId: color.status.warning
+      category: color
+      value:
+        kind: color
+        value: "#9a5f12ff"
+    - tokenId: color.status.error
+      category: color
+      value:
+        kind: color
+        value: "#c4473dff"
+    - tokenId: color.highlight
+      category: color
+      value:
+        kind: color
+        value: "#fff0cfff"
+    - tokenId: color.data.series_1
+      category: color
+      value:
+        kind: color
+        value: "#2f6f73ff"
+    - tokenId: color.data.series_1_hover
+      category: color
+      value:
+        kind: color
+        value: "#255a5eff"
+    - tokenId: color.data.series_1_pressed
+      category: color
+      value:
+        kind: color
+        value: "#1c474aff"
+    - tokenId: color.data.series_2
+      category: color
+      value:
+        kind: color
+        value: "#8a4b23ff"
+    - tokenId: color.data.series_3
+      category: color
+      value:
+        kind: color
+        value: "#6a4d91ff"
+    - tokenId: color.data.series_4
+      category: color
+      value:
+        kind: color
+        value: "#185d91ff"
+    - tokenId: font.family.sans
+      category: font_family
+      value:
+        kind: font_family
+        families:
+          - IBM Plex Sans
+          - Arial
+          - sans-serif
+    - tokenId: font.family.mono
+      category: font_family
+      value:
+        kind: font_family
+        families:
+          - IBM Plex Mono
+          - Courier New
+          - monospace
+    - tokenId: font.family.system
+      category: font_family
+      value:
+        kind: font_family
+        families:
+          - system-ui
+          - BlinkMacSystemFont
+          - Segoe UI
+          - sans-serif
+    - tokenId: font.weight.regular
+      category: font_weight
+      value:
+        kind: font_weight
+        value: 400
+    - tokenId: font.weight.medium
+      category: font_weight
+      value:
+        kind: font_weight
+        value: 500
+    - tokenId: font.weight.semibold
+      category: font_weight
+      value:
+        kind: font_weight
+        value: 600
+    - tokenId: typography.display
+      category: typography
+      value:
+        kind: typography
+        role: display
+        fontFamilyTokenId: font.family.sans
+        fontSize:
+          kind: dimension
+          value: 2
+          unit: rem
+        lineHeight: 1.1
+        fontWeight:
+          kind: font_weight
+          value: 600
+        letterSpacing:
+          kind: dimension
+          value: -0.02
+          unit: em
+    - tokenId: typography.workspace_title
+      category: typography
+      value:
+        kind: typography
+        role: workspace_title
+        fontFamilyTokenId: font.family.sans
+        fontSize:
+          kind: dimension
+          value: 1.5
+          unit: rem
+        lineHeight: 1.15
+        fontWeight:
+          kind: font_weight
+          value: 600
+        letterSpacing:
+          kind: dimension
+          value: -0.015
+          unit: em
+    - tokenId: typography.section_title
+      category: typography
+      value:
+        kind: typography
+        role: section_title
+        fontFamilyTokenId: font.family.sans
+        fontSize:
+          kind: dimension
+          value: 1.25
+          unit: rem
+        lineHeight: 1.2
+        fontWeight:
+          kind: font_weight
+          value: 600
+        letterSpacing:
+          kind: dimension
+          value: -0.01
+          unit: em
+    - tokenId: typography.object_title
+      category: typography
+      value:
+        kind: typography
+        role: object_title
+        fontFamilyTokenId: font.family.sans
+        fontSize:
+          kind: dimension
+          value: 1.125
+          unit: rem
+        lineHeight: 1.25
+        fontWeight:
+          kind: font_weight
+          value: 600
+        letterSpacing:
+          kind: dimension
+          value: -0.005
+          unit: em
+    - tokenId: typography.body
+      category: typography
+      value:
+        kind: typography
+        role: body
+        fontFamilyTokenId: font.family.sans
+        fontSize:
+          kind: dimension
+          value: 1
+          unit: rem
+        lineHeight: 1.5
+        fontWeight:
+          kind: font_weight
+          value: 400
+        letterSpacing:
+          kind: dimension
+          value: 0
+          unit: em
+    - tokenId: typography.control
+      category: typography
+      value:
+        kind: typography
+        role: control
+        fontFamilyTokenId: font.family.sans
+        fontSize:
+          kind: dimension
+          value: 0.875
+          unit: rem
+        lineHeight: 1.25
+        fontWeight:
+          kind: font_weight
+          value: 500
+        letterSpacing:
+          kind: dimension
+          value: 0
+          unit: em
+    - tokenId: typography.metadata
+      category: typography
+      value:
+        kind: typography
+        role: metadata
+        fontFamilyTokenId: font.family.sans
+        fontSize:
+          kind: dimension
+          value: 0.75
+          unit: rem
+        lineHeight: 1.35
+        fontWeight:
+          kind: font_weight
+          value: 400
+        letterSpacing:
+          kind: dimension
+          value: 0.01
+          unit: em
+    - tokenId: typography.identifier
+      category: typography
+      value:
+        kind: typography
+        role: identifier
+        fontFamilyTokenId: font.family.mono
+        fontSize:
+          kind: dimension
+          value: 0.8125
+          unit: rem
+        lineHeight: 1.4
+        fontWeight:
+          kind: font_weight
+          value: 500
+        letterSpacing:
+          kind: dimension
+          value: 0.01
+          unit: em
+    - tokenId: typography.quantity
+      category: typography
+      value:
+        kind: typography
+        role: quantity
+        fontFamilyTokenId: font.family.mono
+        fontSize:
+          kind: dimension
+          value: 1
+          unit: rem
+        lineHeight: 1.25
+        fontWeight:
+          kind: font_weight
+          value: 600
+        letterSpacing:
+          kind: dimension
+          value: 0
+          unit: em
+    - tokenId: radius.default
+      category: radius
+      value:
+        kind: radius
+        startStart:
+          kind: dimension
+          value: 0
+          unit: px
+        startEnd:
+          kind: dimension
+          value: 0
+          unit: px
+        endEnd:
+          kind: dimension
+          value: 0
+          unit: px
+        endStart:
+          kind: dimension
+          value: 0
+          unit: px
+    - tokenId: radius.control
+      category: radius
+      value:
+        kind: radius
+        startStart:
+          kind: dimension
+          value: 2
+          unit: px
+        startEnd:
+          kind: dimension
+          value: 2
+          unit: px
+        endEnd:
+          kind: dimension
+          value: 2
+          unit: px
+        endStart:
+          kind: dimension
+          value: 2
+          unit: px
+    - tokenId: border.structural
+      category: border
+      value:
+        kind: border
+        width:
+          kind: dimension
+          value: 1
+          unit: px
+        style: solid
+        color:
+          kind: color
+          value: "#c9c1b5ff"
+    - tokenId: border.selection
+      category: border
+      value:
+        kind: border
+        width:
+          kind: dimension
+          value: 2
+          unit: px
+        style: solid
+        color:
+          kind: color
+          value: "#9a5f12ff"
+    - tokenId: border.attention
+      category: border
+      value:
+        kind: border
+        width:
+          kind: dimension
+          value: 1
+          unit: px
+        style: solid
+        color:
+          kind: color
+          value: "#9a5f12ff"
+    - tokenId: border.error
+      category: border
+      value:
+        kind: border
+        width:
+          kind: dimension
+          value: 1
+          unit: px
+        style: solid
+        color:
+          kind: color
+          value: "#c4473dff"
+    - tokenId: shadow.low
+      category: shadow
+      value:
+        kind: shadow
+        layers: []
+    - tokenId: shadow.medium
+      category: shadow
+      value:
+        kind: shadow
+        layers:
+          - offsetInline:
+              kind: dimension
+              value: 0
+              unit: px
+            offsetBlock:
+              kind: dimension
+              value: 2
+              unit: px
+            blur:
+              kind: dimension
+              value: 8
+              unit: px
+            spread:
+              kind: dimension
+              value: -2
+              unit: px
+            color:
+              kind: color
+              value: "#00000024"
+            inset: false
+    - tokenId: shadow.high
+      category: shadow
+      value:
+        kind: shadow
+        layers:
+          - offsetInline:
+              kind: dimension
+              value: 0
+              unit: px
+            offsetBlock:
+              kind: dimension
+              value: 6
+              unit: px
+            blur:
+              kind: dimension
+              value: 20
+              unit: px
+            spread:
+              kind: dimension
+              value: -4
+              unit: px
+            color:
+              kind: color
+              value: "#00000038"
+            inset: false
+    - tokenId: motion.fast
+      category: duration
+      value:
+        kind: duration
+        value: 90
+        unit: ms
+    - tokenId: motion.standard
+      category: duration
+      value:
+        kind: duration
+        value: 160
+        unit: ms
+    - tokenId: motion.easing
+      category: easing
+      value:
+        kind: easing
+        value: ease_out
+    - tokenId: metric.control.height.comfortable
+      category: dimension
+      value:
+        kind: dimension
+        value: 36
+        unit: px
+    - tokenId: metric.control.height.compact
+      category: dimension
+      value:
+        kind: dimension
+        value: 28
+        unit: px
+    - tokenId: metric.control.height
+      category: dimension
+      value:
+        kind: alias
+        targetTokenId: metric.control.height.comfortable
+    - tokenId: metric.gap.comfortable
+      category: dimension
+      value:
+        kind: dimension
+        value: 12
+        unit: px
+    - tokenId: metric.gap.compact
+      category: dimension
+      value:
+        kind: dimension
+        value: 8
+        unit: px
+    - tokenId: metric.gap
+      category: dimension
+      value:
+        kind: alias
+        targetTokenId: metric.gap.comfortable
+  modes:
+    - modeId: light
+      replacements: []
+    - modeId: dark
+      replacements:
+        - tokenId: color.surface.canvas
+          value:
+            kind: color
+            value: "#08090aff"
+        - tokenId: color.surface.shell
+          value:
+            kind: color
+            value: "#0c0d0fff"
+        - tokenId: color.surface.primary
+          value:
+            kind: color
+            value: "#111317ff"
+        - tokenId: color.surface.secondary
+          value:
+            kind: color
+            value: "#0d0f12ff"
+        - tokenId: color.surface.raised
+          value:
+            kind: color
+            value: "#16191eff"
+        - tokenId: color.surface.inset
+          value:
+            kind: color
+            value: "#0d0f12ff"
+        - tokenId: color.text.primary
+          value:
+            kind: color
+            value: "#f4f1eaff"
+        - tokenId: color.text.muted
+          value:
+            kind: color
+            value: "#bbb7afff"
+        - tokenId: color.text.inverse
+          value:
+            kind: color
+            value: "#111214ff"
+        - tokenId: color.border.primary
+          value:
+            kind: color
+            value: "#2a2d32ff"
+        - tokenId: color.border.secondary
+          value:
+            kind: color
+            value: "#1d2024ff"
+        - tokenId: color.accent.primary_strong
+          value:
+            kind: color
+            value: "#ffb84dff"
+        - tokenId: color.status.info
+          value:
+            kind: color
+            value: "#7cc7c4ff"
+        - tokenId: color.status.success
+          value:
+            kind: color
+            value: "#73d5a4ff"
+        - tokenId: color.status.warning
+          value:
+            kind: color
+            value: "#ffc66bff"
+        - tokenId: color.status.error
+          value:
+            kind: color
+            value: "#ff8178ff"
+        - tokenId: color.highlight
+          value:
+            kind: color
+            value: "#4b3514ff"
+        - tokenId: color.data.series_1
+          value:
+            kind: color
+            value: "#7cc7c4ff"
+        - tokenId: color.data.series_1_hover
+          value:
+            kind: color
+            value: "#99d6d3ff"
+        - tokenId: color.data.series_1_pressed
+          value:
+            kind: color
+            value: "#5fa8a5ff"
+        - tokenId: color.data.series_2
+          value:
+            kind: color
+            value: "#e8a15cff"
+        - tokenId: color.data.series_3
+          value:
+            kind: color
+            value: "#b8a3e6ff"
+        - tokenId: color.data.series_4
+          value:
+            kind: color
+            value: "#6eb6eaff"
+        - tokenId: border.structural
+          value:
+            kind: border
+            width:
+              kind: dimension
+              value: 1
+              unit: px
+            style: solid
+            color:
+              kind: color
+              value: "#2a2d32ff"
+        - tokenId: border.selection
+          value:
+            kind: border
+            width:
+              kind: dimension
+              value: 2
+              unit: px
+            style: solid
+            color:
+              kind: color
+              value: "#ffb84dff"
+        - tokenId: border.attention
+          value:
+            kind: border
+            width:
+              kind: dimension
+              value: 1
+              unit: px
+            style: solid
+            color:
+              kind: color
+              value: "#ffb84dff"
+        - tokenId: border.error
+          value:
+            kind: border
+            width:
+              kind: dimension
+              value: 1
+              unit: px
+            style: solid
+            color:
+              kind: color
+              value: "#ff8178ff"
+    - modeId: high_contrast
+      replacements:
+        - tokenId: color.surface.canvas
+          value:
+            kind: color
+            value: "#000000ff"
+        - tokenId: color.surface.shell
+          value:
+            kind: color
+            value: "#000000ff"
+        - tokenId: color.surface.primary
+          value:
+            kind: color
+            value: "#000000ff"
+        - tokenId: color.surface.secondary
+          value:
+            kind: color
+            value: "#000000ff"
+        - tokenId: color.surface.raised
+          value:
+            kind: color
+            value: "#000000ff"
+        - tokenId: color.surface.inset
+          value:
+            kind: color
+            value: "#000000ff"
+        - tokenId: color.text.primary
+          value:
+            kind: color
+            value: "#ffffffff"
+        - tokenId: color.text.muted
+          value:
+            kind: color
+            value: "#ffffffff"
+        - tokenId: color.text.inverse
+          value:
+            kind: color
+            value: "#000000ff"
+        - tokenId: color.border.primary
+          value:
+            kind: color
+            value: "#ffffffff"
+        - tokenId: color.border.secondary
+          value:
+            kind: color
+            value: "#ffffffff"
+        - tokenId: color.accent.primary
+          value:
+            kind: color
+            value: "#ffff00ff"
+        - tokenId: color.accent.primary_hover
+          value:
+            kind: color
+            value: "#ffffffff"
+        - tokenId: color.accent.primary_pressed
+          value:
+            kind: color
+            value: "#ffff00ff"
+        - tokenId: color.accent.primary_strong
+          value:
+            kind: color
+            value: "#ffff00ff"
+        - tokenId: color.status.info
+          value:
+            kind: color
+            value: "#00ffffff"
+        - tokenId: color.status.success
+          value:
+            kind: color
+            value: "#00ff99ff"
+        - tokenId: color.status.warning
+          value:
+            kind: color
+            value: "#ffff00ff"
+        - tokenId: color.status.error
+          value:
+            kind: color
+            value: "#ff8080ff"
+        - tokenId: color.highlight
+          value:
+            kind: color
+            value: "#0000ffff"
+        - tokenId: border.structural
+          value:
+            kind: border
+            width:
+              kind: dimension
+              value: 2
+              unit: px
+            style: solid
+            color:
+              kind: color
+              value: "#ffffffff"
+        - tokenId: border.selection
+          value:
+            kind: border
+            width:
+              kind: dimension
+              value: 3
+              unit: px
+            style: solid
+            color:
+              kind: color
+              value: "#ffff00ff"
+        - tokenId: border.attention
+          value:
+            kind: border
+            width:
+              kind: dimension
+              value: 2
+              unit: px
+            style: solid
+            color:
+              kind: color
+              value: "#ffff00ff"
+        - tokenId: border.error
+          value:
+            kind: border
+            width:
+              kind: dimension
+              value: 2
+              unit: px
+            style: solid
+            color:
+              kind: color
+              value: "#ff8080ff"
+  densities:
+    - densityId: comfortable
+      replacements: []
+    - densityId: compact
+      replacements:
+        - tokenId: metric.control.height
+          value:
+            kind: alias
+            targetTokenId: metric.control.height.compact
+        - tokenId: metric.gap
+          value:
+            kind: alias
+            targetTokenId: metric.gap.compact
+  themeDigest: sha256:a2a16e97008b832e0bd38f209a74a42bdb93c29615dd655c5c191764f0efd36d

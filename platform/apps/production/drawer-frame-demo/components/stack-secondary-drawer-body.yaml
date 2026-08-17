@@ -8,19 +8,93 @@ spec:
   parentRef: frameSurface:stack-secondary-drawer
   slotName: default
   layout:
-    desktop:
-      x: 0
-      y: 0
-      width: 15
-      height: 4
-    mobile:
-      x: 0
-      y: 0
-      width: 15
-      height: 4
+    documentId: psi.gui.layout.c38bd6e7e7995676228b8a7706af467634d7efd36dad4cc4d3a390b3757d874b7
+    version: 2.0.0
+    algorithmVersion: 2.0.0
+    profiles:
+      wide:
+        profileId: wide
+        rect:
+          inlineStart: 0
+          inlineEnd: 15
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: migrated
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:e3780fdbd7a3d75f954da98a718d1a15eae0bbf1e5324b85badbb8e0e084b2ab
+          baseWideDigest: null
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 15
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+      medium:
+        profileId: medium
+        rect:
+          inlineStart: 0
+          inlineEnd: 9
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: derived
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:4548e6ff4904d808bc7fcb7e9162d0f054fecf8e529fdb2e8b4b0755e06dc08a
+          baseWideDigest: sha256:4548e6ff4904d808bc7fcb7e9162d0f054fecf8e529fdb2e8b4b0755e06dc08a
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 9
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+      compact:
+        profileId: compact
+        rect:
+          inlineStart: 0
+          inlineEnd: 5
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: derived
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:4548e6ff4904d808bc7fcb7e9162d0f054fecf8e529fdb2e8b4b0755e06dc08a
+          baseWideDigest: sha256:4548e6ff4904d808bc7fcb7e9162d0f054fecf8e529fdb2e8b4b0755e06dc08a
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 5
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+    contentDigest: sha256:edcd6f24a5e97866bdf1e70382d3902e2f1a478b869858c8189248235f9c267a
   properties:
     text: Second open stacked drawer owns the single dark overlay.
   display:
     showOnDesktop: true
     showOnMobile: false
   validation: {}
+  appearance:
+    contractKind: ComponentAppearanceDocument
+    contractVersion: 1.0.0
+    componentInstanceId: component:stack-secondary-drawer-body
+    appearanceDefinitionRef:
+      id: psi.gui.widget.text
+      version: 4.0.0
+      contentDigest: sha256:64498e20cf379bb3a6079a7647681398768cdfd5ec0e820530998ca4ed62309d
+    selectedVariants:
+      - axisId: text_format
+        value: plain_text
+    stylePortValues: []
+    documentDigest: sha256:5971980b04488811a44ff48339defb5059783655130e2326c14050efccafc10b
