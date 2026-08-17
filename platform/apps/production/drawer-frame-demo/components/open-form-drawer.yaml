@@ -6,16 +6,77 @@ spec:
   type: Button
   pageRef: page:home
   layout:
-    desktop:
-      x: 14
-      y: 4
-      width: 6
-      height: 4
-    mobile:
-      x: 0
-      y: 15
-      width: 4
-      height: 4
+    documentId: psi.gui.layout.c9b0947077dbbad425fedbf0ec95aa50b92bb45846a5cf417e6f3f8296648de49
+    version: 2.0.0
+    algorithmVersion: 2.0.0
+    profiles:
+      wide:
+        profileId: wide
+        rect:
+          inlineStart: 14
+          inlineEnd: 20
+          blockStart: 6
+          blockEnd: 12
+        visibility: visible
+        provenance:
+          sourceKind: migrated
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:4c5b9b42df2caf6310555c1f806a23f0c62e9d91ccd5ff19e4f7f43bd4dccc19
+          baseWideDigest: null
+          prePackRect:
+            inlineStart: 14
+            inlineEnd: 20
+            blockStart: 6
+            blockEnd: 12
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+      medium:
+        profileId: medium
+        rect:
+          inlineStart: 8
+          inlineEnd: 12
+          blockStart: 6
+          blockEnd: 12
+        visibility: visible
+        provenance:
+          sourceKind: derived
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:cbf792821e90fd40be115565f21cecaa981b4e4e16c15ade4feed780a171d466
+          baseWideDigest: sha256:cbf792821e90fd40be115565f21cecaa981b4e4e16c15ade4feed780a171d466
+          prePackRect:
+            inlineStart: 8
+            inlineEnd: 12
+            blockStart: 6
+            blockEnd: 12
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+      compact:
+        profileId: compact
+        rect:
+          inlineStart: 4
+          inlineEnd: 6
+          blockStart: 6
+          blockEnd: 12
+        visibility: visible
+        provenance:
+          sourceKind: derived
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:cbf792821e90fd40be115565f21cecaa981b4e4e16c15ade4feed780a171d466
+          baseWideDigest: sha256:cbf792821e90fd40be115565f21cecaa981b4e4e16c15ade4feed780a171d466
+          prePackRect:
+            inlineStart: 4
+            inlineEnd: 6
+            blockStart: 6
+            blockEnd: 12
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+    contentDigest: sha256:b57a7628f8768f656fbd6ed6814c7bb665922425866d740959379b148e941606
   properties:
     text: Open Form Drawer
     label: Open Form Drawer
@@ -23,3 +84,16 @@ spec:
     showOnDesktop: true
     showOnMobile: true
   validation: {}
+  appearance:
+    contractKind: ComponentAppearanceDocument
+    contractVersion: 1.0.0
+    componentInstanceId: component:open-form-drawer
+    appearanceDefinitionRef:
+      id: psi.gui.widget.button
+      version: 4.0.0
+      contentDigest: sha256:21ac4cc902ea8959a527003aac9122579500caf4bb76b23862998bad2682f214
+    selectedVariants:
+      - axisId: emphasis
+        value: ordinary_primary
+    stylePortValues: []
+    documentDigest: sha256:c9f7939431ac297bc49e0348388f40fc03040bc76424bcccb987a6166b23addf

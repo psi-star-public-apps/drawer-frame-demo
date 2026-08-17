@@ -3,10 +3,13 @@ kind: page
 id: home
 name: DrawerFrame Certification
 spec:
+  pageKind: content
   handle: home
   title: DrawerFrame Certification
   route: /home
   navigation:
+    icon: description
+    visible: true
     label: DrawerFrame Certification
     order: 10
   rootComponentRefs:

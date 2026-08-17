@@ -8,19 +8,93 @@ spec:
   parentRef: frameSurface:filter-drawer
   slotName: default
   layout:
-    desktop:
-      x: 0
-      y: 0
-      width: 14
-      height: 4
-    mobile:
-      x: 0
-      y: 0
-      width: 14
-      height: 4
+    documentId: psi.gui.layout.cd9d94956958ca0b1c1a67412be759e42a5a6296d494c2f6e150b6ab6b3606542
+    version: 2.0.0
+    algorithmVersion: 2.0.0
+    profiles:
+      wide:
+        profileId: wide
+        rect:
+          inlineStart: 0
+          inlineEnd: 14
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: migrated
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:89072ad121a72894ae9bea44202d12bf7301babd1fb211b094ce117a7928eed5
+          baseWideDigest: null
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 14
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+      medium:
+        profileId: medium
+        rect:
+          inlineStart: 0
+          inlineEnd: 9
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: derived
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:dcb5834416de9d285f00cfc4e9c662461bfb92b2a40a9fdceacb4581f4f2f1b5
+          baseWideDigest: sha256:dcb5834416de9d285f00cfc4e9c662461bfb92b2a40a9fdceacb4581f4f2f1b5
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 9
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+      compact:
+        profileId: compact
+        rect:
+          inlineStart: 0
+          inlineEnd: 5
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: derived
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:dcb5834416de9d285f00cfc4e9c662461bfb92b2a40a9fdceacb4581f4f2f1b5
+          baseWideDigest: sha256:dcb5834416de9d285f00cfc4e9c662461bfb92b2a40a9fdceacb4581f4f2f1b5
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 5
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+    contentDigest: sha256:17bb8c85ae76e20979d7b64d5660d8c746585015090dc287a310810cb6caf3b8
   properties:
     text: Filter drawer uses a validated percent custom width.
   display:
     showOnDesktop: true
     showOnMobile: false
   validation: {}
+  appearance:
+    contractKind: ComponentAppearanceDocument
+    contractVersion: 1.0.0
+    componentInstanceId: component:filter-drawer-body
+    appearanceDefinitionRef:
+      id: psi.gui.widget.text
+      version: 4.0.0
+      contentDigest: sha256:64498e20cf379bb3a6079a7647681398768cdfd5ec0e820530998ca4ed62309d
+    selectedVariants:
+      - axisId: text_format
+        value: plain_text
+    stylePortValues: []
+    documentDigest: sha256:9f3e0e068f03fdc5d360f77383fd2b1cc2ff328ce2e9605a6472742145894583

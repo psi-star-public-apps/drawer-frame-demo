@@ -8,19 +8,93 @@ spec:
   parentRef: frameSurface:form-drawer
   slotName: header
   layout:
-    desktop:
-      x: 0
-      y: 0
-      width: 19
-      height: 4
-    mobile:
-      x: 0
-      y: 0
-      width: 19
-      height: 4
+    documentId: psi.gui.layout.cfc7297f04031a4d10673908f38373168ba2da2ce222815d42bc8b3ee295bd6d9
+    version: 2.0.0
+    algorithmVersion: 2.0.0
+    profiles:
+      wide:
+        profileId: wide
+        rect:
+          inlineStart: 0
+          inlineEnd: 19
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: migrated
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:54968795ce99362115c21fc70ec74160be73d6104981ed0ce1b0ecf085b00c34
+          baseWideDigest: null
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 19
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+      medium:
+        profileId: medium
+        rect:
+          inlineStart: 0
+          inlineEnd: 12
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: derived
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:1257b1920de8c1c48275817a09f94b2965c1d1468e36146cb101ead2555b9105
+          baseWideDigest: sha256:1257b1920de8c1c48275817a09f94b2965c1d1468e36146cb101ead2555b9105
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 12
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+      compact:
+        profileId: compact
+        rect:
+          inlineStart: 0
+          inlineEnd: 6
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: derived
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:1257b1920de8c1c48275817a09f94b2965c1d1468e36146cb101ead2555b9105
+          baseWideDigest: sha256:1257b1920de8c1c48275817a09f94b2965c1d1468e36146cb101ead2555b9105
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 6
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+    contentDigest: sha256:49a98b0bd429c752558edc78d0a55885c82613f3d679c3c33061f7cc81b43327
   properties:
     text: Edit Record
   display:
     showOnDesktop: true
     showOnMobile: false
   validation: {}
+  appearance:
+    contractKind: ComponentAppearanceDocument
+    contractVersion: 1.0.0
+    componentInstanceId: component:form-drawer-header
+    appearanceDefinitionRef:
+      id: psi.gui.widget.text
+      version: 4.0.0
+      contentDigest: sha256:64498e20cf379bb3a6079a7647681398768cdfd5ec0e820530998ca4ed62309d
+    selectedVariants:
+      - axisId: text_format
+        value: plain_text
+    stylePortValues: []
+    documentDigest: sha256:27bc258496f3262bdc075c262f4eaecb0eddc4dde7eb2e5b98cf45c094a7478d

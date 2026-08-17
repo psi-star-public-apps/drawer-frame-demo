@@ -8,19 +8,93 @@ spec:
   parentRef: frameSurface:mobile-diagnostic-drawer
   slotName: default
   layout:
-    desktop:
-      x: 0
-      y: 0
-      width: 15
-      height: 4
-    mobile:
-      x: 0
-      y: 0
-      width: 15
-      height: 4
+    documentId: psi.gui.layout.cec143fd3b7902c5e9c92a83273eb85799f5b2624f5d80fbf1db3d4d970bd7e70
+    version: 2.0.0
+    algorithmVersion: 2.0.0
+    profiles:
+      wide:
+        profileId: wide
+        rect:
+          inlineStart: 0
+          inlineEnd: 15
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: migrated
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:7bfc0b555f092f7905bea413d3c10852d9d8dc7ef72e2bba12149bffd10e49f2
+          baseWideDigest: null
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 15
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+      medium:
+        profileId: medium
+        rect:
+          inlineStart: 0
+          inlineEnd: 9
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: derived
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:4548e6ff4904d808bc7fcb7e9162d0f054fecf8e529fdb2e8b4b0755e06dc08a
+          baseWideDigest: sha256:4548e6ff4904d808bc7fcb7e9162d0f054fecf8e529fdb2e8b4b0755e06dc08a
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 9
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+      compact:
+        profileId: compact
+        rect:
+          inlineStart: 0
+          inlineEnd: 5
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: derived
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:4548e6ff4904d808bc7fcb7e9162d0f054fecf8e529fdb2e8b4b0755e06dc08a
+          baseWideDigest: sha256:4548e6ff4904d808bc7fcb7e9162d0f054fecf8e529fdb2e8b4b0755e06dc08a
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 5
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+    contentDigest: sha256:30f9b4634122c5cef0ec9abbaee1ddf32df8f1c84679aed218621beca60e9429
   properties:
     text: Mobile rendering is deferred and must produce a viewport-contextual diagnostic.
   display:
     showOnDesktop: true
     showOnMobile: true
   validation: {}
+  appearance:
+    contractKind: ComponentAppearanceDocument
+    contractVersion: 1.0.0
+    componentInstanceId: component:mobile-diagnostic-drawer-body
+    appearanceDefinitionRef:
+      id: psi.gui.widget.text
+      version: 4.0.0
+      contentDigest: sha256:64498e20cf379bb3a6079a7647681398768cdfd5ec0e820530998ca4ed62309d
+    selectedVariants:
+      - axisId: text_format
+        value: plain_text
+    stylePortValues: []
+    documentDigest: sha256:a32474c2b82771b7383466b83d14bd8535a251cff5eb4971d405664701fbe6c3

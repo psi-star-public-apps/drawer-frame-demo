@@ -6,19 +6,93 @@ spec:
   type: Text
   pageRef: page:home
   layout:
-    desktop:
-      x: 0
-      y: 0
-      width: 24
-      height: 4
-    mobile:
-      x: 0
-      y: 0
-      width: 4
-      height: 4
+    documentId: psi.gui.layout.cc5e6373de21edb4f2e4851a8939dd5282f5680c0c945663b6efe1ec545d53f47
+    version: 2.0.0
+    algorithmVersion: 2.0.0
+    profiles:
+      wide:
+        profileId: wide
+        rect:
+          inlineStart: 0
+          inlineEnd: 24
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: migrated
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:91978961f4ddc4a9448592860c16f284e7352d3b05ef83e2f603551394ea9c88
+          baseWideDigest: null
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 24
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+      medium:
+        profileId: medium
+        rect:
+          inlineStart: 0
+          inlineEnd: 15
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: derived
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:0dffca3f54bd9f831f1f706eb789548fcc85373427dbabd6c2365ebdc6275f83
+          baseWideDigest: sha256:0dffca3f54bd9f831f1f706eb789548fcc85373427dbabd6c2365ebdc6275f83
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 15
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+      compact:
+        profileId: compact
+        rect:
+          inlineStart: 0
+          inlineEnd: 8
+          blockStart: 0
+          blockEnd: 6
+        visibility: visible
+        provenance:
+          sourceKind: derived
+          algorithmVersion: 2.0.0
+          sourceDigest: sha256:0dffca3f54bd9f831f1f706eb789548fcc85373427dbabd6c2365ebdc6275f83
+          baseWideDigest: sha256:0dffca3f54bd9f831f1f706eb789548fcc85373427dbabd6c2365ebdc6275f83
+          prePackRect:
+            inlineStart: 0
+            inlineEnd: 8
+            blockStart: 0
+            blockEnd: 6
+          displacementRows: 0
+          minimumSpan:
+            inlineSpan: 1
+            blockSpan: 2
+    contentDigest: sha256:68b18dcefd5ef4ad824d6721d48815c7fc36104678a72f6bf99e39eca2284549
   properties:
     text: DrawerFrame certification fixture proves frame-surface behavior outside the normal widget manifest.
   display:
     showOnDesktop: true
     showOnMobile: true
   validation: {}
+  appearance:
+    contractKind: ComponentAppearanceDocument
+    contractVersion: 1.0.0
+    componentInstanceId: component:certification-summary
+    appearanceDefinitionRef:
+      id: psi.gui.widget.text
+      version: 4.0.0
+      contentDigest: sha256:64498e20cf379bb3a6079a7647681398768cdfd5ec0e820530998ca4ed62309d
+    selectedVariants:
+      - axisId: text_format
+        value: plain_text
+    stylePortValues: []
+    documentDigest: sha256:b811a8b52ce696db13cd5fd901c39c03d418826748af82b02ab2eaf780d5bdd1
